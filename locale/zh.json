@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "电脑操作",
+    "description": "让 Agent 操作这台 Windows 桌面：截图、窗口列表、鼠标、键盘。会使用真实光标。"
+  }
+}

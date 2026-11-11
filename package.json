@@ -1,0 +1,21 @@
+{
+  "name": "dsh-computer-use",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent tools that drive this Windows desktop: screenshot, windows, mouse, keyboard. Uses the real cursor (documented in the README).",
+  "keywords": ["deepseek-harness", "dsh", "dsh-plugin", "computer-use", "mouse", "automation"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hz106/dsh-computer-use.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "computer.ps1", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
